@@ -1,0 +1,8 @@
+{
+  "name": "Clopshort - Long to Short Video AI",
+  "description": "Transforme automatiquement des vidéos longues en shorts prêts à partager sur TikTok, Reels et Shorts via IA.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

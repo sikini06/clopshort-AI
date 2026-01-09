@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clopshort - AI Video Shorts Generator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body { 
+          background-color: #ffffff; 
+          color: #000; 
+          font-family: 'Inter', system-ui, -apple-system, sans-serif; 
+        }
+        .gradient-red { background: linear-gradient(135deg, #ff0000 0%, #990000 100%); }
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #f1f1f1; }
+        ::-webkit-scrollbar-thumb { background: #ccc; border-radius: 4px; }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react-dom": "https://esm.sh/react-dom@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.35.0",
+    "cors": "https://esm.sh/cors@^2.8.5",
+    "express": "https://esm.sh/express@^5.2.1",
+    "dotenv": "https://esm.sh/dotenv@^17.2.3",
+    "crypto": "https://esm.sh/crypto@^1.0.1",
+    "bcrypt": "https://esm.sh/bcrypt@^6.0.0",
+    "jsonwebtoken": "https://esm.sh/jsonwebtoken@^9.0.3",
+    "openai": "https://esm.sh/openai@^6.15.0",
+    "firebase-admin": "https://esm.sh/firebase-admin@^13.6.0",
+    "node-fetch": "https://esm.sh/node-fetch@^3.3.2"
+  }
+}
+</script>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="module" src="./frontend/index.tsx"></script>
+</body>
+</html>

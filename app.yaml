@@ -1,0 +1,8 @@
+
+runtime: nodejs18
+instance_class: F1
+env_variables:
+  NODE_ENV: "production"
+  # Ajoutez vos clés ici lors du déploiement réel ou via la console Google Cloud
+  # OPENAI_API_KEY: "..."
+  # SHOTSTACK_API_KEY: "..."
